@@ -5,7 +5,7 @@
 The application provides ride-hailing application for people in the South-East Asia. The application has two main kind of users which are Customer who find the taxis and Drivers who have car and provide taxi service.
 ##### 2. Estimate the number of users in app
 - Customer: 
-  - 100 millions riders in total
+  - 100 millions Customers in total
   - 20 millions active users per month
   - Each Customer use the service 15 times per month
 - Driver:
@@ -35,14 +35,14 @@ The application provides ride-hailing application for people in the South-East A
 #### 3. Find the taxis around
 [![Storing locations](https://github.com/BachQuang/SkyMavis_Test/blob/master/2.%20System%20design/Images/Taxi%20around.png)](https://github.com/BachQuang/SkyMavis_Test/blob/master/2.%20System%20design/Images/Taxi%20around.png)
 
-- Rider perspective
+- Customer perspective
     - Display 15 nearest driver at most
     - Refresh the driver location at every 5 seconds
 - Throughput
-    - 20 millions active Rider per day
+    - 20 millions active Customer per day
     - Each user open app 3 times per day = 60 millions opens a day
     - Refresh every 5 second
-    - Each seesion of a Rider is 3 minutes = 2.1 billions request per day = 8,700 requests per second
+    - Each seesion of a Customer is 3 minutes = 2.1 billions request per day = 8,700 requests per second
 #### 4. Matching service
 [![Storing locations](https://github.com/BachQuang/SkyMavis_Test/blob/master/2.%20System%20design/Images/Matching%20service.png)](https://github.com/BachQuang/SkyMavis_Test/blob/master/2.%20System%20design/Images/Matching%20service.png)
 
