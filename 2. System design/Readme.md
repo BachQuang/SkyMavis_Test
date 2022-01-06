@@ -4,10 +4,10 @@
 ##### 1. Overview
 The application provides ride-hailing application for people in the South-East Asia. The application has two main kind of users which are Customer who find the taxis and Drivers who have car and provide taxi service.
 ##### 2. Estimate the number of users in app
-- Rider: 
+- Customer: 
   - 100 millions riders in total
   - 20 millions active users per month
-  - Each rider use the service 15 times per month
+  - Each Customer use the service 15 times per month
 - Driver:
     - 2 millions drivers in total
     - 400,000 active driver per month
