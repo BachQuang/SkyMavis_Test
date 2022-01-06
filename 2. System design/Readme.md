@@ -2,7 +2,7 @@
 # The ride-hailing application 
 ### Introduction
 ##### 1. Overview
-The application provides ride-hailing application for people in the South-East Asia. The application has two main kind of users which are Riders who find the taxis and Drivers who have car and provide taxi service.
+The application provides ride-hailing application for people in the South-East Asia. The application has two main kind of users which are Customer who find the taxis and Drivers who have car and provide taxi service.
 ##### 2. Estimate the number of users in app
 - Rider: 
   - 100 millions riders in total
